@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/charcadoinc/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/charcadoinc/static/js/main.a349c7a8.chunk.js",
-    "main.js.map": "/charcadoinc/static/js/main.a349c7a8.chunk.js.map",
+    "main.js": "/charcadoinc/static/js/main.75029d35.chunk.js",
+    "main.js.map": "/charcadoinc/static/js/main.75029d35.chunk.js.map",
     "runtime-main.js": "/charcadoinc/static/js/runtime-main.799fa5ec.js",
     "runtime-main.js.map": "/charcadoinc/static/js/runtime-main.799fa5ec.js.map",
     "static/js/2.befa7058.chunk.js": "/charcadoinc/static/js/2.befa7058.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.799fa5ec.js",
     "static/js/2.befa7058.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.a349c7a8.chunk.js"
+    "static/js/main.75029d35.chunk.js"
   ]
 }
