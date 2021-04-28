@@ -1,21 +1,24 @@
 {
   "files": {
     "main.css": "/charcadoinc/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/charcadoinc/static/js/main.31783e3f.chunk.js",
-    "main.js.map": "/charcadoinc/static/js/main.31783e3f.chunk.js.map",
+    "main.js": "/charcadoinc/static/js/main.0b0dc0e5.chunk.js",
+    "main.js.map": "/charcadoinc/static/js/main.0b0dc0e5.chunk.js.map",
     "runtime-main.js": "/charcadoinc/static/js/runtime-main.799fa5ec.js",
     "runtime-main.js.map": "/charcadoinc/static/js/runtime-main.799fa5ec.js.map",
-    "static/js/2.9466723e.chunk.js": "/charcadoinc/static/js/2.9466723e.chunk.js",
-    "static/js/2.9466723e.chunk.js.map": "/charcadoinc/static/js/2.9466723e.chunk.js.map",
+    "static/js/2.e69586fb.chunk.js": "/charcadoinc/static/js/2.e69586fb.chunk.js",
+    "static/js/2.e69586fb.chunk.js.map": "/charcadoinc/static/js/2.e69586fb.chunk.js.map",
     "index.html": "/charcadoinc/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/charcadoinc/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.9466723e.chunk.js.LICENSE.txt": "/charcadoinc/static/js/2.9466723e.chunk.js.LICENSE.txt",
-    "static/media/mathBanner1.e1f3e218.jpg": "/charcadoinc/static/media/mathBanner1.e1f3e218.jpg"
+    "static/js/2.e69586fb.chunk.js.LICENSE.txt": "/charcadoinc/static/js/2.e69586fb.chunk.js.LICENSE.txt",
+    "static/media/bootcampBanner.2173f66c.png": "/charcadoinc/static/media/bootcampBanner.2173f66c.png",
+    "static/media/cSharpLogo.c59db449.png": "/charcadoinc/static/media/cSharpLogo.c59db449.png",
+    "static/media/mathBanner1.e1f3e218.jpg": "/charcadoinc/static/media/mathBanner1.e1f3e218.jpg",
+    "static/media/pythonLogo.ada9c4b8.png": "/charcadoinc/static/media/pythonLogo.ada9c4b8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.799fa5ec.js",
-    "static/js/2.9466723e.chunk.js",
+    "static/js/2.e69586fb.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.31783e3f.chunk.js"
+    "static/js/main.0b0dc0e5.chunk.js"
   ]
 }
