@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/charcadoinc/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/charcadoinc/static/js/main.90faa6cb.chunk.js",
-    "main.js.map": "/charcadoinc/static/js/main.90faa6cb.chunk.js.map",
+    "main.js": "/charcadoinc/static/js/main.71a1f1f7.chunk.js",
+    "main.js.map": "/charcadoinc/static/js/main.71a1f1f7.chunk.js.map",
     "runtime-main.js": "/charcadoinc/static/js/runtime-main.799fa5ec.js",
     "runtime-main.js.map": "/charcadoinc/static/js/runtime-main.799fa5ec.js.map",
-    "static/js/2.0e691920.chunk.js": "/charcadoinc/static/js/2.0e691920.chunk.js",
-    "static/js/2.0e691920.chunk.js.map": "/charcadoinc/static/js/2.0e691920.chunk.js.map",
+    "static/js/2.f7544a4e.chunk.js": "/charcadoinc/static/js/2.f7544a4e.chunk.js",
+    "static/js/2.f7544a4e.chunk.js.map": "/charcadoinc/static/js/2.f7544a4e.chunk.js.map",
     "index.html": "/charcadoinc/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/charcadoinc/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0e691920.chunk.js.LICENSE.txt": "/charcadoinc/static/js/2.0e691920.chunk.js.LICENSE.txt",
+    "static/js/2.f7544a4e.chunk.js.LICENSE.txt": "/charcadoinc/static/js/2.f7544a4e.chunk.js.LICENSE.txt",
     "static/media/bootcampBanner.2173f66c.png": "/charcadoinc/static/media/bootcampBanner.2173f66c.png",
     "static/media/cSharpLogo.c59db449.png": "/charcadoinc/static/media/cSharpLogo.c59db449.png",
     "static/media/pythonLogo.ada9c4b8.png": "/charcadoinc/static/media/pythonLogo.ada9c4b8.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.799fa5ec.js",
-    "static/js/2.0e691920.chunk.js",
+    "static/js/2.f7544a4e.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.90faa6cb.chunk.js"
+    "static/js/main.71a1f1f7.chunk.js"
   ]
 }
