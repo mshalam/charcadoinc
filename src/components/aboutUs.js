@@ -5,6 +5,8 @@ import Container from '@material-ui/core/Container';
 import Header from './Header';
 import charPic from '../images/char.jpeg'
 import mauricePic from '../images/maurice.jpeg'
+import brandonPic from '../images/brandon.jpeg'
+import dorisPic from '../images/doris.JPG'
 import Footer from './Footer';
 import Typography from '@material-ui/core/Typography';
 import Card from '@material-ui/core/Card';
@@ -56,6 +58,24 @@ const featuredPosts = [
         link: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep',
         linkText: 'BOOK NOW',
     },
+    {
+        title: 'Doris',
+        description:
+            'Doris is an electrical Engineer and former VP of GCU Robotics. She graduated Cum Laude from GCU and has a passion for drawing and art. Doris is a native Spanish speaker and can help those who prefer to learn in Spanish.',
+        image: dorisPic,
+        imageText: 'Image Text',
+        link: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep',
+        linkText: 'BOOK NOW',
+    },
+    {
+        title: 'Brandon',
+        description:
+            'Brandon is a former Coast Guard Engineer, who has worked at many big tech and financial tech companies including Paypal and Safeway. He graduated with a Computer Science Degree from GCU and has a passion for nature and animals.',
+        image: brandonPic,
+        imageText: 'Image Text',
+        link: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep',
+        linkText: 'BOOK NOW',
+    },
 ];
 
 export default function AboutUs() {
@@ -68,46 +88,28 @@ export default function AboutUs() {
             <Container maxWidth="lg">
                 <Header title="Charcado inc." sections={sections} />
                 <main>
-                    <CardActionArea>
-                        <Card className={classes.card}>
-                            <Hidden xsDown>
-                                <CardMedia className={classes.cardMedia} image={featuredPosts[0].image} title={featuredPosts[0].imageTitle} />
-                            </Hidden>
-                            <div className={classes.cardDetails}>
-                                <CardContent>
-                                    <Typography component="h2" variant="h5">
-                                        {featuredPosts[0].title}
-                                    </Typography>
-                                    <Typography variant="subtitle1" color="textSecondary">
-                                        {featuredPosts[0].date}
-                                    </Typography>
-                                    <Typography variant="subtitle1" paragraph>
-                                        {featuredPosts[0].description}
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                        </Card>
-                    </CardActionArea>
-                    <CardActionArea>
-                        <Card className={classes.card}>
-                            <Hidden xsDown>
-                                <CardMedia className={classes.cardMedia} image={featuredPosts[1].image} title={featuredPosts[1].imageTitle} />
-                            </ Hidden>
-                            <div className={classes.cardDetails}>
-                                <CardContent>
-                                    <Typography component="h2" variant="h5">
-                                        {featuredPosts[1].title}
-                                    </Typography>
-                                    <Typography variant="subtitle1" color="textSecondary">
-                                        {featuredPosts[1].date}
-                                    </Typography>
-                                    <Typography variant="subtitle1" paragraph>
-                                        {featuredPosts[1].description}
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                        </Card>
-                    </CardActionArea>
+                    {featuredPosts.map((post) => (
+                        <CardActionArea>
+                            <Card className={classes.card}>
+                                <Hidden xsDown>
+                                    <CardMedia className={classes.cardMedia} image={post.image} title={post.imageTitle} />
+                                </Hidden>
+                                <div className={classes.cardDetails}>
+                                    <CardContent>
+                                        <Typography component="h2" variant="h5">
+                                            {post.title}
+                                        </Typography>
+                                        <Typography variant="subtitle1" color="textSecondary">
+                                            {post.date}
+                                        </Typography>
+                                        <Typography variant="subtitle1" paragraph>
+                                            {post.description}
+                                        </Typography>
+                                    </CardContent>
+                                </div>
+                            </Card>
+                        </CardActionArea>
+                    ))}
                 </main>
             </Container>
             <Footer title="Contact Us" />
