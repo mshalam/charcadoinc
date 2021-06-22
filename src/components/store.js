@@ -43,6 +43,7 @@ const featuredPosts = [
         description: 'This cute and silly coloring book is perfect for your creative drawing needs!',
         description2: '26 unique designs',
         description3: 'Each picture corresponds the letter of the alphabet with a University experience',
+        price: '$14.99',
         in: true
     },
 ];
@@ -85,8 +86,8 @@ export default function Store() {
                                         <b>Price:</b>
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="h1" style={{ color: "green" }}>
-                                        $999.99
-                                </Typography>
+                                        {post.price}
+                                    </Typography>
                                     <Button
                                         size="small"
                                         variant="contained"
