@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/charcadoinc/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/charcadoinc/static/js/main.ecc270e1.chunk.js",
-    "main.js.map": "/charcadoinc/static/js/main.ecc270e1.chunk.js.map",
+    "main.js": "/charcadoinc/static/js/main.fbc46591.chunk.js",
+    "main.js.map": "/charcadoinc/static/js/main.fbc46591.chunk.js.map",
     "runtime-main.js": "/charcadoinc/static/js/runtime-main.799fa5ec.js",
     "runtime-main.js.map": "/charcadoinc/static/js/runtime-main.799fa5ec.js.map",
-    "static/js/2.f43a91cf.chunk.js": "/charcadoinc/static/js/2.f43a91cf.chunk.js",
-    "static/js/2.f43a91cf.chunk.js.map": "/charcadoinc/static/js/2.f43a91cf.chunk.js.map",
+    "static/js/2.8b2e7d67.chunk.js": "/charcadoinc/static/js/2.8b2e7d67.chunk.js",
+    "static/js/2.8b2e7d67.chunk.js.map": "/charcadoinc/static/js/2.8b2e7d67.chunk.js.map",
     "index.html": "/charcadoinc/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/charcadoinc/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.f43a91cf.chunk.js.LICENSE.txt": "/charcadoinc/static/js/2.f43a91cf.chunk.js.LICENSE.txt",
+    "static/js/2.8b2e7d67.chunk.js.LICENSE.txt": "/charcadoinc/static/js/2.8b2e7d67.chunk.js.LICENSE.txt",
     "static/media/bootcampBanner.2173f66c.png": "/charcadoinc/static/media/bootcampBanner.2173f66c.png",
     "static/media/brandon.6c2d7940.jpeg": "/charcadoinc/static/media/brandon.6c2d7940.jpeg",
     "static/media/cSharpLogo.c59db449.png": "/charcadoinc/static/media/cSharpLogo.c59db449.png",
@@ -18,12 +18,13 @@
     "static/media/maurice.62d362ac.jpeg": "/charcadoinc/static/media/maurice.62d362ac.jpeg",
     "static/media/pythonLogo.ada9c4b8.png": "/charcadoinc/static/media/pythonLogo.ada9c4b8.png",
     "static/media/satBanner.ecbf87f4.jpg": "/charcadoinc/static/media/satBanner.ecbf87f4.jpg",
+    "static/media/storeLogo.48cb3946.png": "/charcadoinc/static/media/storeLogo.48cb3946.png",
     "static/media/tutoringBanner.1486d9b8.jpg": "/charcadoinc/static/media/tutoringBanner.1486d9b8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.799fa5ec.js",
-    "static/js/2.f43a91cf.chunk.js",
+    "static/js/2.8b2e7d67.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.ecc270e1.chunk.js"
+    "static/js/main.fbc46591.chunk.js"
   ]
 }
