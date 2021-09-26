@@ -34,7 +34,7 @@ const sections = [
     { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep', target: "_blank" },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin', target: "_blank" },
-    { title: 'ABOUT US', url: 'https://mshalam.github.io/charcadoinc/#/about' },
+    // { title: 'ABOUT US', url: 'https://mshalam.github.io/charcadoinc/#/about' },
     { title: 'STORE', url: 'https://mshalam.github.io/charcadoinc/#/store' },
     { title: 'CONTACT US', url: 'https://mshalam.github.io/charcadoinc/#/contact' },
 ];
@@ -88,7 +88,7 @@ export default function AboutUs() {
             <CssBaseline />
             <Container maxWidth="lg">
                 <Header title="Charcado inc." sections={sections} />
-                <main>
+                {/* <main>
                     {featuredPosts.map((post) => (
                         <CardActionArea>
                             <Card className={classes.card}>
@@ -111,7 +111,7 @@ export default function AboutUs() {
                             </Card>
                         </CardActionArea>
                     ))}
-                </main>
+                </main> */}
             </Container>
             <Footer title="Contact Us" />
         </React.Fragment>

@@ -75,7 +75,7 @@ const sections = [
     { title: 'CODING BOOTCAMP', url: 'https://mshalam.github.io/charcadoinc/#/bootcamp' },
     { title: 'SAT/ACT PREP', url: 'https://www.picktime.com/charmander#booking-content:~:text=test%20prep', target: "_blank" },
     { title: 'VIOLIN LESSONS', url: 'https://www.picktime.com/charmander#booking-content:~:text=violin', target: "_blank" },
-    { title: 'ABOUT US', url: 'https://mshalam.github.io/charcadoinc/#/about' },
+    // { title: 'ABOUT US', url: 'https://mshalam.github.io/charcadoinc/#/about' },
     { title: 'STORE', url: 'https://mshalam.github.io/charcadoinc/#/store' },
     { title: 'CONTACT US', url: 'https://mshalam.github.io/charcadoinc/#/contact' },
 ];
@@ -143,19 +143,19 @@ export function Bootcamp() {
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="li">
                                     Individualized attention
-                                    </Typography>
+                                </Typography>
                                 <Typography variant="body2" color="textSecondary" component="li">
                                     Custom curriculum to your specific needs
-                                    </Typography>
+                                </Typography>
                                 <Typography variant="body2" color="textSecondary" component="li">
                                     Group rates available upon request
-                                    </Typography>
+                                </Typography>
                                 <Typography variant="body2" color="textSecondary" component="li">
                                     $75/hour for in office and online lessons
-                                    </Typography>
+                                </Typography>
                                 <Typography variant="body2" color="textSecondary" component="li">
                                     $100/hour for in-home lessons
-                                    </Typography>
+                                </Typography>
                                 <br />
                                 <Button
                                     size="large"
@@ -165,7 +165,7 @@ export function Bootcamp() {
                                     target="_blank"
                                 >
                                     REGISTER NOW
-                                    </Button>
+                                </Button>
                             </CardContent>
                         </div>
                     </Card>
